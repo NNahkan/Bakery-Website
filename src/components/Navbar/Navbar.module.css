@@ -1,0 +1,18 @@
+.navbarMain {
+  padding: 1rem 0;
+  background-color: black;
+}
+
+.navbarFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ulList {
+  display: flex;
+}
+
+.ulList li {
+  margin-right: 2rem;
+}
