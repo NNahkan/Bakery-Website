@@ -43,9 +43,9 @@ Before you start, ensure you have met the following requirements:
    git clone https://github.com/NNahkan/Bakery-Website
    ```
 
--cd Bakery-Website
--npm install
--npm run dev
+- cd Bakery-Website
+- npm install
+- npm run dev
 
 ### Contributing
 
