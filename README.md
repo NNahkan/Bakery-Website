@@ -51,11 +51,11 @@ Before you start, ensure you have met the following requirements:
 
 We welcome contributions to enhance the project! To get involved:
 
--Fork the repository.
--Create a new branch for your feature or bug fix: git checkout -b feature-name.
--Make your changes.
--Commit your changes: git commit -m 'Add new feature'.
--Push the branch to your fork: git push origin feature-name.
--Open a Pull Request.
--After review, your changes can be merged.
--Please review our Contributing Guidelines for more details.
+- Fork the repository.
+- Create a new branch for your feature or bug fix: git checkout -b feature-name.
+- Make your changes.
+- Commit your changes: git commit -m 'Add new feature'.
+- Push the branch to your fork: git push origin feature-name.
+- Open a Pull Request.
+- After review, your changes can be merged.
+- Please review our Contributing Guidelines for more details.
