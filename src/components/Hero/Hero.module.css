@@ -1,0 +1,37 @@
+.heroContainer {
+  padding: 4rem;
+}
+
+.heroWrap {
+  position: relative;
+}
+
+.heroWrap::before {
+  content: "";
+  width: 2px;
+  height: 140%;
+  background-image: linear-gradient(to bottom, white, rgba(255, 255, 255, 0));
+  position: absolute;
+  left: -1rem;
+  top: 0;
+}
+
+.myName {
+  font-size: 4em;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.myName::before {
+  width: 100px;
+  background-color: white;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.heroWrap p {
+  font-size: 1.5em;
+}

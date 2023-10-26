@@ -5,11 +5,17 @@ const Navbar = () => {
   return (
     <div className={s.navbarMain}>
       <div className={`${s.navbarFlex} container`}>
-        <div style={{ width: "100px", height: "100px", background: "white" }} />
+        <div style={{ width: "80px", height: "80px", background: "white" }} />
         <ul className={s.ulList}>
-          <li>Ali</li>
-          <li>Ahmet</li>
-          <li>Mehmet</li>
+          <li>
+            <button>Ali</button>
+          </li>
+          <li>
+            <button>Ahmet</button>
+          </li>
+          <li>
+            <button>Mehmet</button>
+          </li>
         </ul>
       </div>
     </div>
