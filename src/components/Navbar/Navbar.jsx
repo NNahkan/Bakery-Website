@@ -8,13 +8,13 @@ const Navbar = () => {
         <div style={{ width: "80px", height: "80px", background: "white" }} />
         <ul className={s.ulList}>
           <li>
-            <button>Ali</button>
+            <button>About</button>
           </li>
           <li>
-            <button>Ahmet</button>
+            <button>Contact</button>
           </li>
           <li>
-            <button>Mehmet</button>
+            <button>Samples</button>
           </li>
         </ul>
       </div>

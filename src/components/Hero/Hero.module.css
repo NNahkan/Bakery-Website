@@ -1,5 +1,17 @@
 .heroContainer {
   padding: 4rem;
+  margin-bottom:  4rem;
+  position: relative;
+}
+
+.cake {
+  position: absolute;
+  right: 20%;
+  top: 15%;
+  opacity: 0.2;
+  width: 100px;
+  max-width: 100%;
+  transform: scale(2) rotate(10deg);
 }
 
 .heroWrap {
@@ -8,9 +20,14 @@
 
 .heroWrap::before {
   content: "";
-  width: 2px;
-  height: 140%;
-  background-image: linear-gradient(to bottom, white, rgba(255, 255, 255, 0));
+  width: 3px;
+  height: 180%;
+  background-image: linear-gradient(
+    to bottom,
+    white,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0)
+  );
   position: absolute;
   left: -1rem;
   top: 0;
@@ -23,15 +40,26 @@
 }
 
 .myName::before {
-  width: 100px;
+  content: "";
+  width: 12px;
   background-color: white;
-  height: 100px;
+  height: 12px;
   border-radius: 50%;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -5px;
+  left: -1.3rem;
 }
 
 .heroWrap p {
   font-size: 1.5em;
+}
+
+.signatureHolder {
+	margin-top: 5rem;
+	text-align: center;
+}
+
+.signatureHolder img {
+	width: 50%;
+	background-color: white;
 }
