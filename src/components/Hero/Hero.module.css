@@ -1,6 +1,6 @@
 .heroContainer {
   padding: 4rem;
-  margin-bottom:  4rem;
+  margin-bottom: 4rem;
   position: relative;
 }
 
@@ -34,7 +34,6 @@
 }
 
 .myName {
-  font-size: 4em;
   margin-bottom: 1rem;
   position: relative;
 }
@@ -55,11 +54,11 @@
 }
 
 .signatureHolder {
-	margin-top: 5rem;
-	text-align: center;
+  margin-top: 5rem;
+  text-align: center;
 }
 
 .signatureHolder img {
-	width: 50%;
-	background-color: white;
+  width: 50%;
+  background-color: white;
 }

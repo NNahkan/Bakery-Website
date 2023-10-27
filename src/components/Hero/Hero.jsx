@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./Hero.module.css";
-import cake from "../../assets/birthday-cake.png";
+import cake from "../../assets/birthdayCake.png";
 import grace from "../../assets/grace.png";
 
 const Hero = () => {
