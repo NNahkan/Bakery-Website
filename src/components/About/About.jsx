@@ -1,6 +1,7 @@
 import React from "react";
 import s from "./About.module.css";
 import { services } from "../../constants";
+import { SectionsWrapper } from "../../hoc";
 
 const ServiceCard = ({ title, icon }) => {
   return (
@@ -33,4 +34,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default SectionsWrapper(About,'about');
