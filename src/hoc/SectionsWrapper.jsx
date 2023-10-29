@@ -12,7 +12,7 @@ const SectionsWrapper = (Component, idName) =>
   function HOC() {
     return (
       <motion.section
-        variants={staggerContainer()}
+        variants={variants	}
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}

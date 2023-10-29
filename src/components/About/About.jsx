@@ -14,10 +14,10 @@ const ServiceCard = ({ title, icon }) => {
 
 const About = () => {
   return (
-    <div className={s.aboutContainer}>
-      <div className="container">
-        <h4>INTRODUCTION</h4>
-        <h1>Overview.</h1>
+    <div className={`${s.aboutContainer} `} >
+      <div className="secondaryContainer">
+        <h4 className="sectionFirstHeader">INTRODUCTION</h4>
+        <h1 className="sectionSecondHeader">Overview.</h1>
         <p className={s.parap}>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
           libero odit voluptates iste pariatur perspiciatis, qui harum corrupti
@@ -34,4 +34,4 @@ const About = () => {
   );
 };
 
-export default SectionsWrapper(About,'about');
+export default SectionsWrapper(About, "about");
