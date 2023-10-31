@@ -1,0 +1,35 @@
+.parap {
+  max-width: 48rem;
+  margin: 1rem 0;
+}
+
+.worksFlex {
+  display: flex;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+
+
+
+/* WorkCard */
+.workCard {
+	position: relative;
+	width: 270px;
+ 	min-height: 240px;
+}
+
+.workCard img {
+	width: 100%;
+}
+
+.workCard div {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	padding: 10px;
+	text-transform: capitalize;
+	font-size: 20px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+

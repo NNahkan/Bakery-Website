@@ -1,0 +1,17 @@
+.feedbacksContainer {
+  background-color: var(--secondaryBackground-color);
+  padding: 3rem;
+}
+
+.testimonials {
+	background-color: blue;
+	padding: 0 3rem 3rem;
+  }
+
+  .testimonials div {
+	width: 100px;
+	height: 100px;
+	background: green;
+	margin-top: -100rem;
+  }
+ 

@@ -19,4 +19,27 @@ const services = [
   },
 ];
 
-export { services };
+const examples = [
+  {
+    image:
+      "https://support.jukeboxprint.com/attachments/token/jfr3f2dvgmokmow/?name=ImageQ_good.png",
+    name: "anan",
+  },
+  {
+    image:
+      "https://support.jukeboxprint.com/attachments/token/jfr3f2dvgmokmow/?name=ImageQ_good.png",
+    name: "anan",
+  },
+  {
+    image:
+      "https://support.jukeboxprint.com/attachments/token/jfr3f2dvgmokmow/?name=ImageQ_good.png",
+    name: "anan",
+  },
+  {
+    image:
+      "https://support.jukeboxprint.com/attachments/token/jfr3f2dvgmokmow/?name=ImageQ_good.png",
+    name: "anan",
+  },
+];
+
+export { services,examples };

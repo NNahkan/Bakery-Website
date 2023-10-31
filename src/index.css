@@ -1,3 +1,7 @@
+:root {
+  --secondaryBackground-color: #004646;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -35,7 +39,7 @@ h1 {
 }
 
 .secondaryContainer {
-	max-width: 1200px;
+  max-width: 1200px;
   padding: 4rem 0;
   margin: 4rem auto;
   margin-left: auto;
@@ -68,4 +72,5 @@ h1 {
 .sectionSecondHeader {
   font-size: 4.2rem;
   margin: 0.7rem 0;
+  text-transform: capitalize;
 }

@@ -1,6 +1,5 @@
 .aboutContainer {
-   
-  background-color: #004646;
+  background-color: var(--secondaryBackground-color);
 }
 
 .parap {
@@ -11,7 +10,6 @@
 .cardsWrap {
   display: flex;
   flex-wrap: wrap;
-
   margin: 4rem 0;
   gap: 2.5rem;
 }
