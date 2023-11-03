@@ -42,4 +42,28 @@ const examples = [
   },
 ];
 
-export { services,examples };
+const testimonials = [
+  {
+    comment:
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    person: "Sara Lee",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    cakeType: "wedding Cake",
+  },
+  {
+    comment:
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    person: "Chris Brown",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    cakeType: "wedding Cake",
+  },
+  {
+    comment:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    person: "Lisa Wang",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    cakeType: "wedding Cake",
+  },
+];
+
+export { services, examples, testimonials };

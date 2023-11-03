@@ -1,17 +1,56 @@
 .feedbacksContainer {
   background-color: var(--secondaryBackground-color);
-  padding: 3rem;
 }
 
-.testimonials {
-	background-color: blue;
-	padding: 0 3rem 3rem;
-  }
+.feedbacksHeaders {
+  background-color: var(--secondaryTransparent-color);
+  padding: 4rem 4rem 6rem;
+ }
 
-  .testimonials div {
-	width: 100px;
-	height: 100px;
-	background: green;
-	margin-top: -100rem;
-  }
- 
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2.5rem;
+  padding: 0 3rem 3rem;
+  margin-top: -4.5rem;
+}
+
+.testimonials > div {
+  max-width: 320px;
+  /* margin-top: -100rem; */
+}
+
+/* FeedbackCard */
+.feedbackCard {
+  background-color: rgb(17, 112, 150);
+  padding: 2.5rem 2rem;
+  border-radius: 1rem;
+}
+
+.feedbackCard > span {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.personInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  text-transform: capitalize;
+}
+
+.personInfo div :nth-child(2) {
+	color: grey;
+}
+
+.personInfo p > span {
+  font-size: 1.2rem;
+  color: aqua;
+}
+
+.personInfo img {
+  border-radius: 50%;
+  width: 3rem;
+  aspect-ratio: 1/1;
+}
