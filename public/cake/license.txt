@@ -1,0 +1,11 @@
+Model Information:
+* title:	Wedding Cake
+* source:	https://sketchfab.com/3d-models/wedding-cake-69be5c0c0d404113a227d9ba19d78447
+* author:	Mekokishvili (https://sketchfab.com/Mekokishvili)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Wedding Cake" (https://sketchfab.com/3d-models/wedding-cake-69be5c0c0d404113a227d9ba19d78447) by Mekokishvili (https://sketchfab.com/Mekokishvili) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

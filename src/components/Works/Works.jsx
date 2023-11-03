@@ -22,6 +22,7 @@ const WorkCard = ({ index, name, image }) => {
 const Works = () => {
   return (
     <motion.div className="secondaryContainer" variants={textVariant()}>
+		
       <h4 className="sectionFirstHeader">My Work</h4>
       <h1 className="sectionSecondHeader">Examples</h1>
       <motion.p className={s.parap} variants={fadeIn("", "", 0.1, 1)}>

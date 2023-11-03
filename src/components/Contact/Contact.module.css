@@ -1,0 +1,11 @@
+.contactWrapper {
+	display: flex;
+ 	gap: 5rem;
+	margin-bottom: 10rem;
+}
+
+.box {
+ 	height: 500px;
+	flex: 1;
+	background-color: yellow;
+}
