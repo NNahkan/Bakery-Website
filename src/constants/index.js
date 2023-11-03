@@ -66,4 +66,11 @@ const testimonials = [
   },
 ];
 
-export { services, examples, testimonials };
+const formElements = [
+  { name: "Name" },
+  { name: "Email" },
+  { name: "Message" },
+  { name: "Phone Number" },
+];
+
+export { services, examples, testimonials, formElements };

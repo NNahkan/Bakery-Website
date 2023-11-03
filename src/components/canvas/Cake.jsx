@@ -29,7 +29,7 @@ const CakeCanvas = () => {
         position: [-4, 3, 6],
       }}
     >
-      <ambientLight intensity={0.7} />
+      <ambientLight intensity={0.9} />
       <Suspense>
         <OrbitControls
           autoRotate

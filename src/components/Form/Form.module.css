@@ -1,0 +1,35 @@
+.contactForm {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* SingleInput */
+
+.formInput {
+  position: relative;
+  max-width: 500px;
+  font-size: 20px;
+ }
+
+.formLabel {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+}
+
+ 
+
+.formInput input {
+  width: 100%;
+  padding: 1.5rem 0.5rem 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+}
+
+/* .formInput: {
+	border-color: black;
+} */
