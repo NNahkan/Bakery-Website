@@ -1,4 +1,5 @@
 :root {
+  --mainBackground-color: #493000;
   --secondaryBackground-color: #004646;
   --secondaryTransparent-color: #015353;
 }
@@ -19,7 +20,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #493000;
+  background-color: var(--mainBackground-color);
   font-size: 16px;
 }
 
@@ -31,6 +32,11 @@ ul {
 
 h1 {
   font-size: 4em;
+}
+
+button {
+	background-color: transparent;
+	border: none;
 }
 
 .container {
@@ -50,11 +56,11 @@ h1 {
 
 .btn {
   padding: 15px 8px;
-  font-size: 1rem;
-  background-color: var(--main-color);
+  font-size: 1.3rem;
+  background-color: pink;
   border: none;
   border-radius: 8px;
-  color: var(--oppositeMain-color);
+  color: white;
   transition: 0.3s ease-in-out;
   cursor: pointer;
   font-weight: 700;

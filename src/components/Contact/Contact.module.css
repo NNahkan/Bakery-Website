@@ -11,6 +11,11 @@
   box-shadow: 0 0 3px white;
 }
 
+.formContainer h4,
+.formContainer h1 {
+	color: pink;
+}
+
 .canvasContainer {
   flex: 4;
 }

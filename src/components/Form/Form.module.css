@@ -5,31 +5,39 @@
   gap: 2rem;
 }
 
+.formButton {
+	width: 280px;
+	align-self: center;
+}
+
 /* SingleInput */
 
 .formInput {
   position: relative;
   max-width: 500px;
-  font-size: 20px;
- }
+}
 
 .formLabel {
   position: absolute;
   bottom: 10px;
   left: 15px;
+  font-size: 1.6rem;
+  pointer-events: none;
+  text-transform: capitalize;
 }
 
- 
-
 .formInput input {
+  font-size: 1.2rem;
   width: 100%;
-  padding: 1.5rem 0.5rem 10px;
+  padding: 1.2rem 1rem 10px;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid white;
   outline: none;
+  transition: 0.3s ease-in;
 }
 
-/* .formInput: {
-	border-color: black;
-} */
+.formInput input:focus {
+  background-color: rgba(0, 149, 255, 0.05);
+  /* color: black; */
+}

@@ -14,15 +14,18 @@ const ServiceCard = ({ title, icon }) => {
 
 const About = () => {
   return (
-    <div className={`${s.aboutContainer} `} >
+    <div className={`${s.aboutContainer} `}>
       <div className="secondaryContainer">
         <h4 className="sectionFirstHeader">INTRODUCTION</h4>
         <h1 className="sectionSecondHeader">Overview.</h1>
         <p className={s.parap}>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
-          libero odit voluptates iste pariatur perspiciatis, qui harum corrupti
-          suscipit ut mollitia aut cupiditate architecto quae nisi. Expedita
-          maiores eveniet autem!
+          Hey there! I'm Grace, the baker behind [Business Name]. Passionate
+          about turning simple ingredients into delightful memories. Join me in
+          celebrating life's sweetness, one cake at a time! 🍰✨ <br /><br />Celebrations
+          are personal, and so is our approach. My commitment is to be a part of
+          your joy, turning ordinary moments into sweet memories. Ready to add a
+          dash of sweetness to your special moments? I can't wait to bake for
+          you.
         </p>
         <div className={s.cardsWrap}>
           {services.map((item, index) => (
